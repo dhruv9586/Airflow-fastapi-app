@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fastapi-python-app"
+version = "0.1.0"
+description = ""
+authors = ["dhruv9586 <dhruv9586@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.11"
+uvicorn = "^0.34.0"
+pydantic = {extras = ["email"], version = "^2.10.6"}
+motor = "^3.7.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+pytest-cov = "^6.0.0"
+httpx = "^0.28.1"
+pytest-asyncio = "^0.25.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

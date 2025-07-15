@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# FastAPI specific (e.g., auto-generated OpenAPI files if any)
+openapi.json
+
+# VS Code settings
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook (if used)
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Airflow specific
+airflow.cfg
+airflow.db
+logs/
+dags/__pycache__/
+airflow-webserver.pid
+sqlite.db
+
+# Environment files
+.env
+.env.*
+
+# Mypy
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# pytest
+.cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Database files (if local db used)
+*.sqlite3
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# JetBrains IDE settings
+.idea/
+
+# Pycharm Airflow local run config
+.airflow/
+

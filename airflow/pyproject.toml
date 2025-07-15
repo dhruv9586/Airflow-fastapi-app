@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "learning-airflow"
+version = "0.1.0"
+description = "learning-airflow"
+authors = ["dhruv9586 <dhruv9586@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+apache-airflow = "2.10.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
